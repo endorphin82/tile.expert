@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!--    <link rel="stylesheet" href="css/normalize.css" type="text/css">-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="sandwich">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="logo-container">
+        <a class="logo" href="#"><span class="logo_t">t</span>ile.expert</a>
+        <div class="cursor"><img class="cursor_img" src="img/cursor1920.png" alt=""></div>
+    </div>
+
+
+    <div class="search-options noactive">
+        <div class="search-options--row">
+            <label><input type="checkbox"><span></span>мои</label>
+            <input class="search-options--field" type="text" placeholder="Автор">
+        </div>
+        <div class="search-options--row">
+            <label class="sort">Сортировать по:<select>
+                <option value="1">Дате</option>
+                <option value="2">Дате</option>
+                <option value="3">Дате</option>
+            </select></label>
+        </div>
+        <div class="search-options--row">
+            <label><input type="checkbox"><span></span>я участник</label>
+            <label><input type="checkbox"><span></span>в заголовке</label>
+            <label><input type="checkbox"><span></span>строгий поиск</label>
+        </div>
+    </div>
+
+    <div class="nav-links_container">
+        <ul class="nav_links">
+            <li class="nav-item">
+                <a class="nav-link nav-link_links" href="#">
+                    Ссылки<span></span>
+                </a>
+
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link nav-link_contacts" href="#">
+                    Контакты
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link nav-link_tags" href="#">
+                    Теги<span></span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link nav-link_requests" href="#">
+                    Просьбы<span></span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link nav-link_favorites" href="#">
+                    Избранное<span></span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link nav-link_visits" href="#">
+                    Посещения<span></span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="searchbox active">
+
+        <div class="input-wrapper">
+            <span class="input-search--icon">
+                <svg fill="#c1c1c1" height="24" viewBox="0 0 24 24" width="24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 14h-.8l-.27-.27C15.4 12.6 16 11.1 16 9.5 16 5.9 13.1 3 9.5 3S3 5.9 3 9.5 5.9 16 9.5 16c1.6 0 3.1-.6 4.23-1.57l.27.28v.8l5 5 1.5-1.5-5-5zm-6 0C7 14 5 12 5 9.5S7 5 9.5 5 14 7 14 9.5 12 14 9.5 14z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+            </span>
+            <input type="text">
+            <span class="search-exit">
+                <svg height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4l5.6 5.6L5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6z"
+                          fill="#444f62"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+            </span>
+        </div>
+
+        <button class="search-field--btn">Найти</button>
+
+    </div>
+
+    <div class="search-and-add">
+        <div class="search-btn">
+            <a href="#">
+                <svg fill="#FFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 14h-.8l-.27-.27C15.4 12.6 16 11.1 16 9.5 16 5.9 13.1 3 9.5 3S3 5.9 3 9.5 5.9 16 9.5 16c1.6 0 3.1-.6 4.23-1.57l.27.28v.8l5 5 1.5-1.5-5-5zm-6 0C7 14 5 12 5 9.5S7 5 9.5 5 14 7 14 9.5 12 14 9.5 14z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+            </a>
+        </div>
+        <div class="add_circle">
+            <a href="#">
+                <svg fill="#FFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="navitems-rigth">
+        <ul class="navitems-rigth_list">
+            <li class="nav-item">
+                <a href="#" class="nav-item_link">
+                    <i class="material-icons">
+                        mail_outline
+                    </i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <div class="notification_container">
+                    <a href="#" class="nav-item_link">
+                        <i class="material-icons">
+                            notifications_none
+                        </i>
+                    </a>
+                    <div class="notification_container_numbers">
+                        <span>18</span>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item_link" href="#"><img src="img/avatar.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</body>
+</html>

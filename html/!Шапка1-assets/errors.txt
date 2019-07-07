@@ -1,0 +1,24 @@
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "T.E": Unsupported extension: e
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com": Unsupported extension: com
+[2019-04-29 21:01:04] layer "T.E": Unsupported extension: e
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com": Unsupported extension: com
+[2019-04-29 21:01:04] layer "T.E": Unsupported extension: e
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com": Unsupported extension: com
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com": Unsupported extension: com
+[2019-04-29 21:01:04] layer "T.E": Unsupported extension: e
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com copy": Expected end of input but "c" found.
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com copy": Expected end of input but "c" found.
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Tile.Expert": Unsupported extension: expert
+[2019-04-29 21:01:04] layer "Cursor. Attribute as Amit Jakhu from Flaticon.com": Unsupported extension: com
+[2019-04-29 21:01:04] layer "T.E": Unsupported extension: e
+[2019-04-29 21:01:04] layer "+ Добавить еще": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-04-29 21:01:04] layer "+ Добавить еще": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-04-29 21:01:04] layer "+ Добавить еще": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-04-29 21:01:04] layer "+ Добавить еще": Expected Either a default asset specification or a layer asset specification but "+" found.

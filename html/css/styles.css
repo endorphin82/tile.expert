@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "Esqadero FF CY 4F";
+    src: url('../font/EsqaderoFFCY4F-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    height: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    /* display: inline-block; */
+    padding-left: 20px;
+}
+
+.logo {
+    font-family: "Esqadero FF CY 4F", sans-serif;
+    font-size: 18pt;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: rgb(219, 68, 55);
+}
+.logo_t {
+    color: #db4437;
+}
+
+.logo_container {
+    /* border: 1px solid tomato; */
+    position: relative;
+}
+
+
+.nav-links_container {
+    width: 50%;
+}
+.cursor {
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 180px;
+}
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    /*position: relative;*/
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1f77c7;
+    flex-flow: row wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links_container {
+    border: 1px gold solid;
+    margin-left: 30px;
+    flex-basis: 700px;
+}
+
+.nav-links_container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.noactive > * {
+    display: none;
+}
+
+.noactive{
+    display: none;
+}
+
+.nav-links_container ul li a {
+    color: #fff;
+}
+
+.navitems-rigth ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.sandwich {
+    display: none;
+}
+
+.sandwich span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    display: block;
+}
+
+.nav-links_container .nav_links li a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-links_container .nav_links .nav-item .nav-link span {
+    width: 0;
+    height: 0;
+    /*position: relative;*/
+    /*top: -3px;*/
+    display: inline-block;
+    border-top: 6px solid #fff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-left: 10px;
+}
+
+.nav_links li {
+    transition: all 0.5s ease;
+}
+
+.nav_links li:hover {
+    background-color: #182bb6;
+}
+
+.search-and-add {
+    display: flex;
+    /* border: 1px silver solid; */
+}
+
+.add_circle, .search-btn {
+    background-color: #1f77c7;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+}
+
+.search-and-add a {
+    margin: 5px;
+}
+
+.navitems-rigth {
+    margin-left: auto;
+    margin-right: 50px;
+    /* border: 1px silver solid; */
+}
+
+.navitems-rigth ul {
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+    padding-left: 28px;
+}
+
+.notification_container a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    /*vertical-align: middle;
+    */
+}
+/* как только добаляю абсолют, navitems-rigth ul {align-items: center }перестает действовать;
+*/
+.navitems-rigth ul .notification_container_numbers span{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    display: block;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: #b71826;
+    padding: 1px 1px;
+}
+
+.searchbox {
+    /* z-index: 2; */
+}
+
+.searchbox {
+    visibility: hidden;
+
+    position: absolute;
+    border: 1px gold solid;
+    margin-left: 30px;
+    /* min-width: 700px; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    /* transition: 1000ms; */
+    /* transform: translateX(100%); } */
+}
+.active > * {
+     /* transform: translateX(0); */
+     /*visibility: visible;*/
+}
+.searchbox input {
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #fff;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    box-sizing: border-box; 
+}
+.searchbox .input-wrapper .input-search--icon {
+    /* position: absolute; */
+    top: 8px;
+    left: 10px;
+    display: block;
+    pointer-events: none; 
+    
+}
+
+@media screen and (max-width: 415px) {
+
+}
